@@ -1,13 +1,13 @@
 
 let songIndex =0;
-let audioElement = new Audio("1.mp3");
-let masterPlay = document.getElementById('masterplay');
-let myprogressbar = document.getElementById('myprogressbar');
-let gif = document.getElementById('gif');
-let masterSongName = document.getElementById('masterSongName');
-let songItems =Array.from(document.getElementsByClassName('songItem'));
+const audioElement = new Audio("1.mp3");
+const masterPlay = document.getElementById('masterplay');
+const myprogressbar = document.getElementById('myprogressbar');
+const gif = document.getElementById('gif');
+const masterSongName = document.getElementById('masterSongName');
+const songItems =Array.from(document.getElementsByClassName('songItem'));
 
-let songs= [
+const songs= [
     {songName:"levitating baby",filePath:"1.mp3",coverPath:"1.jpg"},
     {songName:"baby baby on",filePath:"2.mp3",coverPath:"2.jpg"},
     {songName:"Rock on",filePath:"3.mp3",coverPath:"3.jpg"},
